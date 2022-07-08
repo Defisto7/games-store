@@ -1,0 +1,38 @@
+.item {
+  margin: 0 auto;
+  text-decoration: none;
+  color: wheat;
+  width: 400px;
+  min-height: 400px;
+  background-color: rgb(32, 32, 32);
+  background-repeat: 15px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.details {
+  padding: 10px 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.genres {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.buy {
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+}
