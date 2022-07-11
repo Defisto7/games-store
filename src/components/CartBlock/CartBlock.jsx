@@ -4,6 +4,7 @@ import s from "./CartBlock.module.css";
 import { BsCart4 } from "react-icons/bs";
 import CartMenu from "../CartMenu/CartMenu";
 import { calcTotalPrice } from "../utils";
+import ItemsInCart from "../ItemsInCart/ItemsInCart";
 
 function CartBlock() {
   const [isCartMenuVisible, setIsCartMenuVisible] = useState(false);
@@ -11,6 +12,7 @@ function CartBlock() {
   const totalPrice = calcTotalPrice(items);
   return (
     <div className={s.cart}>
+      <ItemsInCart quantity={items.length}/>
       <BsCart4
         size={25}
         className={s.icon}
