@@ -1,4 +1,5 @@
 .gameCover {
-  height: 500px;
-  width: 400px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }

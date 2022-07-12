@@ -4,7 +4,7 @@ import s from './HomePage.module.css'
 
 const DUMMYDATA = [
   {
-    image: 'https://upload.wikimedia.org/wikipedia/ru/thumb/0/03/Red_Dead_Redemption_2_coverart.jpg/411px-Red_Dead_Redemption_2_coverart.jpg',
+    image: 'https://itc.ua/wp-content/uploads/2018/05/Red-Dead-Redemption-2.jpg',
     title: 'Red Dead Redemption 2',
     genres: ['Шутер от третьего лица', 'Шутер от первого лицар', 'Приключенческий боевик', 'Вестерн'],
     price: 899,

@@ -4,6 +4,8 @@
   border: none;
   padding: 5px;
   cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
 
 .btn--primary {

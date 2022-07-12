@@ -26,9 +26,11 @@ function GamePage() {
           <GameCover image={game.image}/>
           <p>{game.description}</p>
           <p className={s.secondaryText}>Популярные метки из этого продукт:</p>
-          {game.genres.map((genre) => (
-            <GameGanres genre={genre} key={genre} />
+          <div className={s.genre}>
+            {game.genres.map((genre) => (
+              <GameGanres genre={genre} key={genre} />
           ))}
+          </div>
           <div className={s.buy}>
             <GameBuy game={game} />
           </div>
