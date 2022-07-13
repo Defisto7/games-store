@@ -20,7 +20,8 @@ function GameItem({ game }) {
       <div className={s.details}>
         <span className={s.title}>{game.title}</span>
         <div className={s.genres}>
-          {game.genres.map(g => <GameGanres genre={g} key={g}/>)}
+          {/* {game.genres.map(g => <GameGanres genre={g} key={g}/>)} */}
+          <GameGanres genre={game.genres} />
         </div>
         <div className={s.buy}>
           <GameBuy game={game}/>
