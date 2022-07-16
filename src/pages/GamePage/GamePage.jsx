@@ -27,9 +27,10 @@ function GamePage() {
           <p>{game.description}</p>
           <p className={s.secondaryText}>Популярные метки из этого продукт:</p>
           <div className={s.genre}>
-            {game.genres.map((genre) => (
+            {/* {game.genres.map((genre) => (
               <GameGanres genre={genre} key={genre} />
-          ))}
+          ))} */}
+          {console.log(game.genres)}
           </div>
           <div className={s.buy}>
             <GameBuy game={game} />
